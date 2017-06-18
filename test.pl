@@ -19,6 +19,7 @@ my $UpTime ='';
 my $Name = '';
 my $Location = '';
 my $MAC = '';
+my $test = '';
 
 
     my $sw = new Net::Telnet (Timeout => 30, Prompt  => '/#.*$/', Errmode => 'return' );
